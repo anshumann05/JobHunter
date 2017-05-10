@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jobhunter</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.show_sql">true</property>
+
+		<mapping class="com.neu.edu.jobhunter.pojo.Employer" />
+		<mapping class="com.neu.edu.jobhunter.pojo.Job" />
+		<mapping class="com.neu.edu.jobhunter.pojo.Person" />
+		<mapping class="com.neu.edu.jobhunter.pojo.User" />
+		<mapping class="com.neu.edu.jobhunter.pojo.Education" />
+		<mapping class="com.neu.edu.jobhunter.pojo.Experience" />
+		<!-- <mapping class="com.neu.edu.jobhunter.pojo.JobPersonBridge" /> -->
+
+		<!-- <mapping class="com.neu.edu.jobhunter.pojo.Role" /> <mapping class="com.neu.edu.jobhunter.pojo.Applicant" 
+			/> <mapping class="com.neu.edu.jobhunter.pojo.EducationMapping" /> <mapping 
+			class="com.neu.edu.jobhunter.pojo.EducationMappingID" /> <mapping class="com.neu.edu.jobhunter.pojo.Education" 
+			/> -->
+
+
+
+	</session-factory>
+</hibernate-configuration>                
