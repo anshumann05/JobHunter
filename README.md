@@ -7,13 +7,13 @@ Example:
 If the job requirement says Quality Analyst, there would be a search in the skills for the best matches. After that the other resumes will be filtered randomly.
 
 #GOAL
-•	To allow easy application process for candidates to different job openings.
-•	To design a simple system of filtering of resume, to ensure only eligible candidates are processed further
+1. To allow easy application process for candidates to different job openings.
+2. To design a simple system of filtering of resume, to ensure only eligible candidates are processed further
 
 #ROLES FOR THE SYSTEM
-•	Employer
-•	Candidate
-•	Administrator
+1. Employer
+2. Candidate
+3. Administrator
 
 
 
