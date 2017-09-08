@@ -6,14 +6,11 @@ Job Hunter is a web application aimed at allowing the user to search, add and up
 Example: 
 If the job requirement says Quality Analyst, there would be a search in the skills for the best matches. After that the other resumes will be filtered randomly.
 
-#GOAL
+## GOAL
 1. To allow easy application process for candidates to different job openings.
 2. To design a simple system of filtering of resume, to ensure only eligible candidates are processed further
 
-#ROLES FOR THE SYSTEM
+## ROLES FOR THE SYSTEM
 1. Employer
 2. Candidate
 3. Administrator
-
-
-
